@@ -39,6 +39,20 @@ def string_test_more():
     print(str * 2) # 输出字符串两次
     print(str + "TEST")  # 输出连接的字符串
 
+
+def list_test_more():
+    print("list_test_more")
+
+    name_list = ['sean', 'tom', 'jack', 'Angelia', 'Daisy', 'jack']
+    print(name_list)
+
+    name_list.append('david')
+    print(name_list)
+
+
+
+
+
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
@@ -51,8 +65,9 @@ def print_hi(name):
     # string_test()
 
 
-    string_test_more()
+    # string_test_more()
 
+    list_test_more()
 
 
 # Press the green button in the gutter to run the script.
