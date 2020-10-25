@@ -69,10 +69,27 @@ def list_test_more():
     # name_list.pop()
     # print(name_list)
 
-    while True:
+    count = 0
+    while (count < 3):
         # name_list.pop()
         print(name_list)
+        break
 
+    fruits = ['banana', 'apple', 'mango']
+    for fruit in fruits:  # 第二个实例
+        print('当前水果 :', fruit)
+
+
+def dict_test():
+    dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+    print("dict['Name']: ", dict['Name'])
+    print("dict['Age']: ", dict['Age'])
+
+
+    dict['Age'] = 8  # 更新
+    dict['School'] = "RUNOOB"  # 添加
+    print("dict['Name']: ", dict['Name'])
+    print("dict['Age']: ", dict['Age'])
 
 
 
@@ -94,7 +111,9 @@ def print_hi(name):
 
     # string_test_more()
 
-    list_test_more()
+    # list_test_more()
+
+    dict_test()
 
 
 # Press the green button in the gutter to run the script.
