@@ -22,6 +22,18 @@ class Bird:
 
 
 
+class Complex:
+    def __init__(self, realpart, imagpart):
+        self.r = realpart
+        self.i = imagpart
+
+class newClass:
+    def __init__(self, abc):
+        self.a = abc
+
+
+
+
 def test():
 
     print("Test !!! ")
@@ -45,9 +57,23 @@ def test_02():
 
 
 
+def test_03_complex():
+    x = Complex(3.0, -4.5)
+    print(x.r, x.i)   # 输出结果：3.0 -4.5
+
+
+
+def newClass_test():
+    x = newClass(7)
+
+    print(x.a)
 
 
 if __name__ == '__main__':
     # test()
 
-    test_02()
+    # test_02()
+
+    # test_03_complex()
+
+    newClass_test()
