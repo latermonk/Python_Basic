@@ -49,6 +49,33 @@ def list_test_more():
     name_list.append('david')
     print(name_list)
 
+    print(name_list.count('david'))
+    print(name_list.count('jack'))
+
+    # name_list.extend('Hello,My name is sean')
+    # print(name_list)
+
+    name_list.insert(2, 'Adam')
+    print(name_list)
+
+    # name_list.pop()
+    # print(name_list)
+    # name_list.pop()
+    # print(name_list)
+    # name_list.pop()
+    # print(name_list)
+    # name_list.pop()
+    # print(name_list)
+    # name_list.pop()
+    # print(name_list)
+
+    while True:
+        # name_list.pop()
+        print(name_list)
+
+
+
+
 
 
 
